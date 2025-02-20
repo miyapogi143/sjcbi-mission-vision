@@ -1,0 +1,177 @@
+index
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saint Joseph's College of Baggao</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="SJCBI"
+        class="logo">
+    </header>
+
+    <main>
+        <section class="content">
+            <label class="card">
+                <h2>Mission</h2>
+                <p class="hidden-content">
+                    1. SPIRITUALITY
+<br>
+                    <br>
+                    To be witnesses of our faith by cultivating a spirituality rooted on the Word of God, nourished by the sacraments, and lived in humble loving service especially to the poor
+                    <br>
+<br>
+                    2. TRANSFORMATIVE EDUCATION
+<br>
+                    <br>
+                    To provide Catholic education leading to a conversion that transforms persons and communities.
+                    <br>
+<br>
+                    3. ADVOCACY
+<br>
+                    To uphold the principles of social justice, peace, truth and ecological stewardship towards an engaged citizenship.
+                    <br>
+<br>
+                    4. RESEARCH
+<br>
+                    To foster a vibrant and stimulating culture of research.
+                    <br>
+<br>
+                    5. SYNODALITY
+<br>
+                    To promote a culture of care, dialogue, and collaboration among all the stakeholders as a dynamic participation in the life and mission of the Church
+                </p>
+            </label>
+
+            <label class="card">
+                <h2>Vision</h2>
+                <p class="hidden-content">
+                    SJCBI as a premier Catholic Higher Educational Institution in Northern Philippines is Christ-centered, inspired by the spirit of synodality that fosters communion and participation in the evangelizing mission of the Church through transformative education.
+                </p>
+            </label>
+
+            <label class="card">
+                <h2>Values</h2>
+                <p class="hidden-content">
+                    <strong>J-esus centered</strong>  <br>
+                    <strong>O-ption for the poor</strong> . <br>
+                    <strong>S-teward of creation</strong> . <br>
+                    <strong>E-thical</strong> .<br>
+                    <strong>P-roficient</strong> . <br>
+                    <strong>H-olistic</strong> .<br>
+                    <strong>I-novative</strong> . <br>
+                    <strong>A-doptability</strong> .<br>
+                    <strong>N-urturing</strong> .<br>
+                </p>
+            </label>
+        </section>
+    </main>
+
+</body>
+</html>
+
+style.css
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f4f4f4, #d9e4f5);
+    text-align: center;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #078b1d, #86a303);
+    color: white;
+    padding: 25px;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    width: 80%;
+    max-width: 500px;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to bottom right, #f2f8e2, #b4d3ee);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #97ff41, #f1ee09de);
+    transition: width 0.3s ease-in-out;
+}
+
+.card:hover::before {
+    width: 100%;
+}
+
+.hidden-content {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #444;
+    font-weight: 500;
+}
+
+.card:hover .hidden-content {
+    max-height: 500px;
+    opacity: 1;
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 90%;
+    }
+    header {
+        font-size: 22px;
+    }
+}
+
+.logo{
+height: 180px;
+margin-right: 50px;
+vertical-align: middle;
+}
+header {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap: 10px;
+}
