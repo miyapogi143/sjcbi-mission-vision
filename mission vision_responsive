@@ -1,0 +1,299 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saint Joseph's College of Baggao</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="logo (1).png" alt="SJCBI"
+        class="logo">
+    </header>
+
+    <main>
+        <section class="content">
+            <label class="card">
+                <h2>Mission</h2>
+                <p class="hidden-content">
+                    1. SPIRITUALITY
+<br>
+                    <br>
+                    To be witnesses of our faith by cultivating a spirituality rooted on the Word of God, nourished by the sacraments, and lived in humble loving service especially to the poor
+                    <br>
+<br>
+                    2. TRANSFORMATIVE EDUCATION
+<br>
+                    <br>
+                    To provide Catholic education leading to a conversion that transforms persons and communities.
+                    <br>
+<br>
+                    3. ADVOCACY
+<br>
+                    To uphold the principles of social justice, peace, truth and ecological stewardship towards an engaged citizenship.
+                    <br>
+<br>
+                    4. RESEARCH
+<br>
+                    To foster a vibrant and stimulating culture of research.
+                    <br>
+<br>
+                    5. SYNODALITY
+<br>
+                    To promote a culture of care, dialogue, and collaboration among all the stakeholders as a dynamic participation in the life and mission of the Church
+                </p>
+            </label>
+
+            <label class="card">
+                <h2>Vision</h2>
+                <p class="hidden-content">
+                    SJCBI as a premier Catholic Higher Educational Institution in Northern Philippines is Christ-centered, inspired by the spirit of synodality that fosters communion and participation in the evangelizing mission of the Church through transformative education.
+                </p>
+            </label>
+
+            <label class="card">
+                <h2>Values</h2>
+                <p class="hidden-content">
+                    <strong>J-esus centered</strong>  <br>
+                    <strong>O-ption for the poor</strong> . <br>
+                    <strong>S-teward of creation</strong> . <br>
+                    <strong>E-thical</strong> .<br>
+                    <strong>P-roficient</strong> . <br>
+                    <strong>H-olistic</strong> .<br>
+                    <strong>I-novative</strong> . <br>
+                    <strong>A-doptability</strong> .<br>
+                    <strong>N-urturing</strong> .<br>
+                </p>
+            </label>
+
+        </label>
+
+        <label class="card">
+            <h2>Program</h2>
+            <p class="hidden-content">
+                <strong> BASIC EDUCATION UNIT </strong> <br>
+                <br>
+            <br>
+                <P1> ELEMENTARY</P1>
+                <br>
+            <br>
+                <strong> JUNIOR HIGH </strong> <br>
+                <br>
+            <br>
+                <P1> 7 </P1>
+                <br>
+            <br>
+                <P1> 8 </P1>
+                <br>
+            <br>
+                <P1> 9 </P1>
+                <br>
+            <br>
+                <P1> 10 </P1>
+                <br>
+            <br>
+                <strong> SENIOR HIGH </strong> <br>
+                <br>
+            <br>
+                <P1> STEM </P1>
+                <br>
+            <br>
+                <P1> HUMMS </P1>
+                <br>
+            <br>
+                <P1> ABM </P1>
+                <br>
+            <br>
+                <strong> CASTE </strong> <br>
+                <br>
+            <br>
+                <P1> ABEC</P1>
+                <br>
+            <br>
+                <P1> BEED</P1>
+                <br>
+            <br>
+                <P1> BSED ENGLISH</P1>
+                <br>
+            <br>
+                <P1> BSED MATH</P1>
+                <br>
+            <br>
+                <P1> BSED SCIENCE</P1>
+                <br>
+            <br>
+                <P1> BSED VAL.ED</P1>
+                <br>
+            <br>
+                <P1> BSED BSSW</P1>
+                <br>
+            <br>
+                <strong> CICS </strong> <br>
+                <br>
+            <br>
+                <P1> BSIT </P1>
+                <br>
+            <br>
+                <P1> BLISS </P1>
+                <br>
+            <br>
+                <strong> CBM </strong> <br>
+                <br>
+            <br>
+                <P1> BSTM </P1>
+                <br>
+            <br>
+                <P1> BSBA </P1> <br>
+                <br>
+            <br>
+                <strong> CCJE </strong> <br>
+                <br>
+            <br>
+                <P1> BSCRIM </P1>
+
+            </p>
+        </label>
+
+        </section>
+    </main>
+
+</body>
+</html>
+
+style. css
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f4f4f4, #d9e4f5);
+    text-align: center;
+    color: #333;
+}
+
+header {
+    position: fixed;
+    top : 0;
+    background: linear-gradient(to right, #078b1d, #86a303);
+    color: white;
+    padding: 25px;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    height: 10vh;
+    width: 100vw;
+    
+}
+
+@media (max-width:15px ) {
+    header {
+        font : 15px;
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25vh;
+}
+
+@media (max-width: 600px) {
+    .content {
+        margin: 20%;
+    }
+}
+
+
+
+.card {
+    background: white;
+    width: 80%;
+    max-width: 500px;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to bottom right, #f2f8e2, #b4d3ee);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #97ff41, #f1ee09de);
+    transition: width 0.3s ease-in-out;
+}
+
+.card:hover::before {
+    width: 100%;
+}
+
+.hidden-content {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #444;
+    font-weight: 500;
+}
+
+.card:hover .hidden-content {
+    max-height: 1000px;
+    opacity: 1;
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 90%;
+    }
+    header {
+        font-size: 22px;
+    }
+}
+
+.logo{
+height: 500px;
+margin-right: 5px;
+vertical-align: middle;
+width: 200px;
+}
+header {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media (max-width: 1200px) {
+    .logo{ 
+        width: 50%;
+    }
+}
+
+@media (min-height: 90px) {
+    .logo{
+        height: 25%;
+    }
+}
